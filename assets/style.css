@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: Katibeh, cursive;
+  font-size: 25px;
+}
+body {
+  background-color: lightslategrey;
+}
+header {
+  width: 850px;
+  height: 250px;
+  background-image: url("../images/Wrangler_6.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+  color: darkgrey;
+}
+picture img {
+  position: relative;
+  height: 120px;
+  width: 250px;
+  margin-left: 10px;
+  top: 100px;
+  z-index: 1;
+}
+.profile {
+  position: relative;
+  left: 275px;
+  top: 150px;
+}
+.profile h3,
+h4 {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  position: relative;
+  background-color: rgba(243, 241, 241, 0.658);
+  height: 40px;
+  width: 100%;
+  top: 40px;
+  margin: 0 auto;
+  border: 0px solid silver;
+  border-radius: 10px;
+}
+
+#nav-list {
+  color: black;
+  padding-left: 30%;
+}
+a {
+  text-decoration: none;
+}
+.nav-link {
+  position: relative;
+  margin-left: 8%;
+  font-size: 18px;
+}
+a:hover {
+  font-size: 100%;
+}
+.triangle::after {
+  content: "🞃";
+}
+button {
+  position: relative;
+  float: right;
+  top: 150px;
+  margin-right: 5px;
+  background-color: rgba(252, 252, 252, 0.466);
+  font-size: 18px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+}
+.follow {
+  margin-right: 0px;
+  text-align: center;
+  border-right: 1px solid black;
+}
+.dots {
+  margin-left: -5px;
+  border-left: 1px solid black;
+}
+main {
+  width: 850px;
+  height: 1000px;
+  margin: 35px auto;
+  color: darkgrey;
+}
+.col {
+  width: 100%;
+  height: 100%;
+  background-color: lightslategrey;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left {
+  float: left;
+  width: 328px;
+  color: rgb(46, 45, 45);
+}
+.right {
+  float: right;
+  width: 512px;
+  margin-left: 10px;
+}
+.box {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(243, 241, 241, 0.658);
+}
+.status {
+  height: 175px;
+}
+.about {
+  height: 100px;
+}
+.apps {
+  height: 250px;
+}
+.photos {
+  height: 435px;
+}
+.update {
+  height: 335px;
+}
+.post {
+  height: 250px;
+}
+.events {
+  height: 215px;
+}
+.post1 {
+  height: 160px;
+}
+.imgcol img {
+  float: left;
+  width: 35%;
+  padding: 5px;
+  margin-left: 25px;
+}
+.imgrow::after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+hr {
+  border: 0;
+  height: 4px;
+  margin-top: 0px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+main h4 {
+  position: relative;
+  text-align: center;
+  color: dimgray;
+}
+footer {
+  color: black;
+}
+.about p {
+  font-size: 18px;
+  margin: -16px 10px;
+  text-decoration: underline;
+}
+.status p {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+.apps nav {
+  background-color: rgba(243, 241, 241, 0.658);
+
+  border: none;
+  height: 86%;
+  width: 25%;
+  margin: -54px auto;
+}
+.apps ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.apps button {
+  position: relative;
+  float: left;
+  height: 25%;
+  width: 25%;
+  margin-left: 10px;
+  background-color: dimgrey;
+}
+.welcome {
+  top: -5px;
+}
+.fwb {
+  top: 48px;
+  left: -97px;
+}
+.livestream {
+  top: 39px;
+  left: -2px;
+}
+.line {
+  position: relative;
+}
+.two {
+  top: 59px;
+  left: -4px;
+}
+.three {
+  top: 49px;
+  left: 41px;
+  width: 240px;
+}
+.username {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  background-image: url("../images/ICON-FJ44-Land-Cruiser-cover.jpg");
+  background-size: cover;
+}
+.userupdate {
+  height: 50%;
+  width: 80%;
+  background-color: dimgrey;
+  margin: auto;
+}
+.likesms {
+  height: 10%;
+  width: 90%;
+  background-color: dimgrey;
+  margin: 10px auto;
+}
+.update .likesms {
+  margin: 60px auto;
+}
+.post .likesms {
+  margin: 20px auto;
+}
