@@ -85,11 +85,12 @@ button {
   margin-left: -5px;
   border-left: 1px solid black;
 }
-main {
+.row {
   width: 850px;
-  height: 1000px;
-  margin: 35px auto;
+  height: 100%;
+  margin: 0 auto;
   color: darkgrey;
+  float: left;
 }
 .col {
   width: 100%;
@@ -102,14 +103,17 @@ main {
   clear: both;
 }
 .left {
-  float: left;
+  left: 199px;
   width: 328px;
   color: rgb(46, 45, 45);
+  position: relative;
+  top: 35px;
 }
 .right {
-  float: right;
+  top: -963px;
   width: 512px;
-  margin-left: 10px;
+  left: 537px;
+  position: relative;
 }
 .box {
   position: relative;
@@ -162,7 +166,7 @@ hr {
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
-main h4 {
+.row h4 {
   position: relative;
   text-align: center;
   color: dimgray;
@@ -171,9 +175,10 @@ footer {
   color: black;
 }
 .about p {
-  font-size: 18px;
-  margin: -16px 10px;
+  font-size: 16px;
+  margin: -28px 13px;
   text-decoration: underline;
+  padding: 0px;
 }
 .status p {
   font-size: 18px;
@@ -209,8 +214,8 @@ footer {
   left: -97px;
 }
 .livestream {
-  top: 39px;
-  left: -2px;
+  top: 100px;
+  left: -195px;
 }
 .line {
   position: relative;
@@ -220,8 +225,8 @@ footer {
   left: -4px;
 }
 .three {
-  top: 49px;
-  left: 41px;
+  top: 112px;
+  left: -107px;
   width: 240px;
 }
 .username {
@@ -248,4 +253,9 @@ footer {
 }
 .post .likesms {
   margin: 20px auto;
+}
+footer {
+  position: relative;
+  top: 1000px;
+  left: -652px;
 }
